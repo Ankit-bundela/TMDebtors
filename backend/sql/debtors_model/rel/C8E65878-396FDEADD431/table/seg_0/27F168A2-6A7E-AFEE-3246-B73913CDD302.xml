@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="27F168A2-6A7E-AFEE-3246-B73913CDD302" name="ac_item">
+<createdBy>ankit</createdBy>
+<createdTime>2024-10-19 09:14:20 UTC</createdTime>
+<ownerDesignName>debtors_model</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="code" id="D3B1BA63-E023-811D-EE3B-68382B7702B8">
+<createdBy>ankit</createdBy>
+<createdTime>2024-10-19 09:16:19 UTC</createdTime>
+<ownerDesignName>debtors_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="039C566F-AA20-90B7-2A0B-E86F7C5E0E6B">
+<createdBy>ankit</createdBy>
+<createdTime>2024-10-19 09:16:19 UTC</createdTime>
+<ownerDesignName>debtors_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BE3E6586-7CC1-EB7B-04A8-5ACF219E6930" name="ac_item_PK">
+<createdBy>ankit</createdBy>
+<createdTime>2024-10-19 09:16:19 UTC</createdTime>
+<ownerDesignName>debtors_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3B1BA63-E023-811D-EE3B-68382B7702B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63D194E4-F01E-C49A-6428-071CA474B4B9" name="ac_item__UN">
+<createdBy>ankit</createdBy>
+<createdTime>2024-10-19 09:17:10 UTC</createdTime>
+<ownerDesignName>debtors_model</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="039C566F-AA20-90B7-2A0B-E86F7C5E0E6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

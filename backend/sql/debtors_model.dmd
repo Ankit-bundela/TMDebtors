@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="debtors_model" id="8CEFC737-A538-18F1-C2FD-D5A9D37695A0" version="3.5">
+<createdBy>ankit</createdBy>
+<createdTime>2024-10-19 09:01:35 UTC</createdTime>
+<ownerDesignName>debtors_model</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>8CEFC737-A538-18F1-C2FD-D5A9D37695A0</designId>
+</OSDM_Design>
