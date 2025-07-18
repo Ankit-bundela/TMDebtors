@@ -46,10 +46,10 @@ A full-stack **Accounting and Invoice Management System** for businesses to mana
 ![Add Invoice](ScreenShot/s2.jpg)
 
 ### 🔐 Item Add 
-![Item](ScreenShot/s3.jpg)
+![Item](ScreenShot/s4.jpg)
 
 ### 📋 All Created Invoices View
-![All Invoices](ScreenShot/s4.jpg)
+![All Invoices](ScreenShot/s3.jpg)
 
 
 ### How To Run
