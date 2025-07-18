@@ -39,26 +39,28 @@ A full-stack **Accounting and Invoice Management System** for businesses to mana
 
 ## Screenshots
 
-> ![Start](<img src="ScreenShot/s1.jpg" alt="Start server"/>)
+### 🚀 App Start Page
+![Start](ScreenShot/s1.jpg)
 
->### ➕ Add Dash Board
-![Add Invoice](<img src="ScreenShot/s2.jpg" alt="Invoice"/>)
+### ➕ Dashboard
+![Add Invoice](ScreenShot/s2.jpg)
 
 ### 🔐 Item Add 
-![Item](<img src="ScreenShot/s4.jpg" alt="Start server"/>)
+![Item](ScreenShot/s3.jpg)
 
-
-### 📋 All Create Invoices View
-![All Invoices](<img src="ScreenShot/s4.jpg" alt="Create Invoice"/>)
-
+### 📋 All Created Invoices View
+![All Invoices](ScreenShot/s4.jpg)
 
 
 ### How To Run
-Backend (Python)
+
+**Backend (Python)** 
+
 cd backend
 python server/DebtorsAccounting.py
 
 Frontend (React)
+**Frontend (React** 
 npm install
 npm start
 
