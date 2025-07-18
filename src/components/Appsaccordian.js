@@ -95,13 +95,21 @@ const Appsaccordian = () => {
     const [customers, setCustomers] = React.useState([]);
     const [selectedCustomer, setSelectedCustomer] = React.useState(null);
      
-    React.useEffect(()=>{
-            getCustomers().then((customer)=>{
-                setCustomers(customer);
-            },(error)=>{
-                alert(error);
-            });
-    },[]);
+    React.useEffect(() => {
+  getCustomers().then(
+    (customer) => {
+      console.log("Customer API Response:", customer);
+      if (customer.success) {
+        setCustomers(customer.data || []);
+      } else {
+        alert("Error: " + customer.error);
+      }
+    },
+    (error) => {
+      alert(error);
+    }
+  );
+}, []);
 
     const handleCustomerSelect = (customer) => {
         setSelectedCustomer(customer);
@@ -506,3 +514,4 @@ const EditDialogComponent = ({ open, handleClose, customerData, setCustomerData 
 };
 
 export default Appsaccordian;
+

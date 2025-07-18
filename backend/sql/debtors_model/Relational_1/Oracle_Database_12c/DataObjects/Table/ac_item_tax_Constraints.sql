@@ -1,1 +1,0 @@
-ALTER TABLE ac_item_tax ADD CONSTRAINT ac_item_tax_pk PRIMARY KEY ( item_code );
